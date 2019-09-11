@@ -15,6 +15,6 @@ The Revenue-at-Risk Report monitors the delivery status for all IBM Watson Adver
 
 6.) Google Sheets Export- The program will push the "late creative" pivot into Google Sheets via gspread so Account Executives can add in their weekly notes and comments regarding the status of their accounts.
 
-6.) Email Automation- The program will log into the users' email account, create an email subject and body, and attach the excel and word documents that were previously created, and will send it to all relevant recipients.
+6.) Email Automation- The program will log into the users' email account, create an email subject and body, and attach the excel and word documents that were previously created, and will send it to the report owner.
 
 6.) Cron Job- The report is sent out every Monday and Thursday at around 11am. A cron job was set up in the terminal to mimic this execution schedule.
